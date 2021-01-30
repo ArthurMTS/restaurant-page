@@ -11,25 +11,25 @@ export default function header() {
   nav.setAttribute('id', 'nav');
 
   const ul = document.createElement('ul');
-  const homeLI = document.createElement('li');
 
+  const homeLI = document.createElement('li');
   homeLI.classList.add('nav-link');
   const homeLink = document.createElement('a');
-  homeLink.setAttribute('href', '#');
+  homeLink.setAttribute('id', 'home');
   homeLink.textContent = 'Home';
   homeLI.appendChild(homeLink);
 
   const menuLI = document.createElement('li');
   menuLI.classList.add('nav-link');
   const menuLink = document.createElement('a');
-  menuLink.setAttribute('href', '#');
+  menuLI.setAttribute('id', 'menu');
   menuLink.textContent = 'Menu';
   menuLI.appendChild(menuLink);
 
   const contactLI = document.createElement('li');
   contactLI.classList.add('nav-link');
   const contactLink = document.createElement('a');
-  contactLink.setAttribute('href', '#');
+  contactLink.setAttribute('id', 'contact');
   contactLink.textContent = 'Contact';
   contactLI.appendChild(contactLink);
 

@@ -45,35 +45,11 @@ body {
   text-decoration: none;
   color: #EEE;
   transition: all .2s;
+  cursor: pointer;
 }
 
 #header .nav-link a:hover {
   background-color: rgb(202, 0, 94);
-}
-
-#main {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -10;
-}
-
-#main h2 {
-  font-size: 36px;
-  text-shadow: 5px 5px 10px #000;
-  color: #F7F7F7;
-}
-
-#content img {
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -10;
 }
 
 #footer {
