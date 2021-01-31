@@ -1,5 +1,9 @@
-function pageLoader() {
+export default function contact() {
   const content = document.querySelector('#content');
+
+  document.querySelector('#main') ? 
+    content.removeChild(document.querySelector('#main')) :
+    ''
 
   const main = document.createElement('main');
   main.setAttribute('id', 'main');
@@ -43,5 +47,3 @@ function pageLoader() {
 
   content.appendChild(main);
 }
-
-export { pageLoader };
